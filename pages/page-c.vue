@@ -1,8 +1,8 @@
-<template lang="pug">
-LayoutBody
-  template
-    p Test
+<template>
+  <LayoutBody>
+    <p>Test</p>
+  </LayoutBody>
 </template>
 
 <script setup lang="ts">
-import LayoutBody from "~/components/layout/body/LayoutBody.vue";</script>
+</script>
