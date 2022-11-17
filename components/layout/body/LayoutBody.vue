@@ -1,7 +1,9 @@
 <template lang="pug">
-div
+div(class='test')
   slot
 </template>
 
 <script setup lang="ts">
 </script>
+<style scoped lang='css'>
+</style>

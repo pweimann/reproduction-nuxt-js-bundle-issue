@@ -1,10 +1,10 @@
 <template lang="pug">
-BaseBody
+LayoutBody
   template
-    TextContainer
+    BaseTextContainer
       p Test
 </template>
 
 <script setup lang="ts">
-import TextContainer from "~/components/base/textContainer/TextContainer.vue";
-import BaseBody from "~/components/layout/body/BaseBody.vue";</script>
+import BaseTextContainer from "~/components/base/textContainer/BaseTextContainer.vue";
+import LayoutBody from "~/components/layout/body/LayoutBody.vue";</script>
